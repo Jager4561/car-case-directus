@@ -2,6 +2,424 @@ version: 1
 directus: 9.26.0
 vendor: mysql
 collections:
+  - collection: cc_activations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_activations
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_activations
+  - collection: cc_brands
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_brands
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_brands
+  - collection: cc_comments
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_comments
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_comments
+  - collection: cc_comments_ratings
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_comments_ratings
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_comments_ratings
+  - collection: cc_comments_reports
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_comments_reports
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_comments_reports
+  - collection: cc_engines
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_engines
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_engines
+  - collection: cc_fuels
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_fuels
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_fuels
+  - collection: cc_generations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_generations
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_generations
+  - collection: cc_generations_cc_engines
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_generations_cc_engines
+      color: null
+      display_template: null
+      group: null
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_generations_cc_engines
+  - collection: cc_generations_cc_fuels
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_generations_cc_fuels
+      color: null
+      display_template: null
+      group: null
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_generations_cc_fuels
+  - collection: cc_generations_cc_hull_types
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_generations_cc_hull_types
+      color: null
+      display_template: null
+      group: null
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_generations_cc_hull_types
+  - collection: cc_hull_types
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_hull_types
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_hull_types
+  - collection: cc_models
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_models
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_models
+  - collection: cc_models_cc_fuels
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_models_cc_fuels
+      color: null
+      display_template: null
+      group: null
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_models_cc_fuels
+  - collection: cc_models_cc_hull_types
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_models_cc_hull_types
+      color: null
+      display_template: null
+      group: null
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_models_cc_hull_types
+  - collection: cc_password_resets
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_password_resets
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_password_resets
+  - collection: cc_posts
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_posts
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_posts
+  - collection: cc_posts_reports
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_posts_reports
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_posts_reports
+  - collection: cc_ratings
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: cc_ratings
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: null
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      name: cc_ratings
   - collection: cc_sessions
     meta:
       accountability: all
@@ -46,11 +464,3818 @@ collections:
       unarchive_value: null
     schema:
       name: cc_users
-  - collection: directus_translations
-    meta: null
-    schema:
-      name: directus_translations
 fields:
+  - collection: cc_activations
+    field: account
+    type: string
+    meta:
+      collection: cc_activations
+      conditions: null
+      display: related-values
+      display_options: null
+      field: account
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{email}}'
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: account
+      table: cc_activations
+      data_type: varchar
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_activations
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_activations
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_activations
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_activations
+    field: id
+    type: integer
+    meta:
+      collection: cc_activations
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_activations
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_activations
+    field: resend
+    type: boolean
+    meta:
+      collection: cc_activations
+      conditions: null
+      display: boolean
+      display_options: null
+      field: resend
+      group: null
+      hidden: false
+      interface: boolean
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: resend
+      table: cc_activations
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: 3
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_activations
+    field: token
+    type: text
+    meta:
+      collection: cc_activations
+      conditions: null
+      display: raw
+      display_options: null
+      field: token
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: token
+      table: cc_activations
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_brands
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_brands
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_brands
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_brands
+    field: id
+    type: integer
+    meta:
+      collection: cc_brands
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_brands
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_brands
+    field: logo
+    type: uuid
+    meta:
+      collection: cc_brands
+      conditions: null
+      display: image
+      display_options: null
+      field: logo
+      group: null
+      hidden: false
+      interface: file-image
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - file
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: logo
+      table: cc_brands
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_files
+      foreign_key_column: id
+  - collection: cc_brands
+    field: name
+    type: text
+    meta:
+      collection: cc_brands
+      conditions: null
+      display: raw
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: name
+      table: cc_brands
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments
+    field: author
+    type: string
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: related-values
+      display_options: null
+      field: author
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: author
+      table: cc_comments
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_comments
+    field: content
+    type: text
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: raw
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-multiline
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: content
+      table: cc_comments
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 3
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_comments
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments
+    field: date_updated
+    type: dateTime
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: datetime
+      display_options: null
+      field: date_updated
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_updated
+      table: cc_comments
+      data_type: datetime
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments
+    field: id
+    type: integer
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_comments
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments
+    field: parent
+    type: integer
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: related-values
+      display_options: null
+      field: parent
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 7
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: parent
+      table: cc_comments
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_comments
+      foreign_key_column: id
+  - collection: cc_comments
+    field: post
+    type: integer
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: related-values
+      display_options: null
+      field: post
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 9
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: post
+      table: cc_comments
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_posts
+      foreign_key_column: id
+  - collection: cc_comments
+    field: ratings
+    type: alias
+    meta:
+      collection: cc_comments
+      field: ratings
+      special:
+        - o2m
+      interface: list-o2m
+      options: null
+      display: null
+      display_options: null
+      readonly: false
+      hidden: false
+      sort: 8
+      width: full
+      translations: null
+      note: null
+      conditions: null
+      required: false
+      group: null
+      validation: null
+      validation_message: null
+  - collection: cc_comments
+    field: status
+    type: string
+    meta:
+      collection: cc_comments
+      conditions: null
+      display: labels
+      display_options: null
+      field: status
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: null
+      options:
+        choices:
+          - text: Opublikowany
+            value: published
+          - text: Usunięty
+            value: deleted
+          - text: Zablokowany
+            value: blocked
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: status
+      table: cc_comments
+      data_type: varchar
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments_ratings
+    field: account
+    type: string
+    meta:
+      collection: cc_comments_ratings
+      conditions: null
+      display: related-values
+      display_options: null
+      field: account
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: account
+      table: cc_comments_ratings
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_comments_ratings
+    field: comment
+    type: integer
+    meta:
+      collection: cc_comments_ratings
+      conditions: null
+      display: related-values
+      display_options: null
+      field: comment
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: comment
+      table: cc_comments_ratings
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_comments
+      foreign_key_column: id
+  - collection: cc_comments_ratings
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_comments_ratings
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 2
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_comments_ratings
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments_ratings
+    field: id
+    type: integer
+    meta:
+      collection: cc_comments_ratings
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_comments_ratings
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments_ratings
+    field: rating
+    type: boolean
+    meta:
+      collection: cc_comments_ratings
+      conditions: null
+      display: boolean
+      display_options: null
+      field: rating
+      group: null
+      hidden: false
+      interface: boolean
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: rating
+      table: cc_comments_ratings
+      data_type: boolean
+      default_value: null
+      max_length: null
+      numeric_precision: 3
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments_reports
+    field: account
+    type: string
+    meta:
+      collection: cc_comments_reports
+      conditions: null
+      display: related-values
+      display_options: null
+      field: account
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: account
+      table: cc_comments_reports
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_comments_reports
+    field: comment
+    type: integer
+    meta:
+      collection: cc_comments_reports
+      conditions: null
+      display: related-values
+      display_options: null
+      field: comment
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: comment
+      table: cc_comments_reports
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_comments
+      foreign_key_column: id
+  - collection: cc_comments_reports
+    field: content
+    type: text
+    meta:
+      collection: cc_comments_reports
+      conditions: null
+      display: raw
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-multiline
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: content
+      table: cc_comments_reports
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments_reports
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_comments_reports
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_comments_reports
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_comments_reports
+    field: id
+    type: integer
+    meta:
+      collection: cc_comments_reports
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_comments_reports
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_engines
+    field: capacity
+    type: decimal
+    meta:
+      collection: cc_engines
+      conditions: null
+      display: raw
+      display_options: null
+      field: capacity
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: capacity
+      table: cc_engines
+      data_type: decimal
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 5
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_engines
+    field: fuel
+    type: integer
+    meta:
+      collection: cc_engines
+      conditions: null
+      display: related-values
+      display_options: null
+      field: fuel
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: fuel
+      table: cc_engines
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_fuels
+      foreign_key_column: id
+  - collection: cc_engines
+    field: generation
+    type: integer
+    meta:
+      collection: cc_engines
+      conditions: null
+      display: related-values
+      display_options: null
+      field: generation
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: generation
+      table: cc_engines
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+  - collection: cc_engines
+    field: horse_power
+    type: integer
+    meta:
+      collection: cc_engines
+      conditions: null
+      display: raw
+      display_options: null
+      field: horse_power
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: horse_power
+      table: cc_engines
+      data_type: int
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_engines
+    field: id
+    type: integer
+    meta:
+      collection: cc_engines
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_engines
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_engines
+    field: name
+    type: text
+    meta:
+      collection: cc_engines
+      conditions: null
+      display: raw
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: name
+      table: cc_engines
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_fuels
+    field: color
+    type: string
+    meta:
+      collection: cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: color
+      group: null
+      hidden: false
+      interface: select-color
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: color
+      table: cc_fuels
+      data_type: varchar
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_fuels
+    field: id
+    type: integer
+    meta:
+      collection: cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_fuels
+    field: name
+    type: text
+    meta:
+      collection: cc_fuels
+      conditions: null
+      display: raw
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: name
+      table: cc_fuels
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations
+    field: date_created
+    type: dateTime
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: datetime
+      display_options: null
+      field: date_created
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_generations
+      data_type: datetime
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations
+    field: engines
+    type: alias
+    meta:
+      collection: cc_generations
+      field: engines
+      special:
+        - m2m
+      interface: list-m2m
+      options: null
+      display: related-values
+      display_options: null
+      readonly: false
+      hidden: false
+      sort: 8
+      width: full
+      translations: null
+      note: null
+      conditions: null
+      required: false
+      group: null
+      validation: null
+      validation_message: null
+  - collection: cc_generations
+    field: hull_types
+    type: alias
+    meta:
+      collection: cc_generations
+      field: hull_types
+      special:
+        - m2m
+      interface: list-m2m
+      options: null
+      display: related-values
+      display_options: null
+      readonly: false
+      hidden: false
+      sort: 7
+      width: full
+      translations: null
+      note: null
+      conditions: null
+      required: false
+      group: null
+      validation: null
+      validation_message: null
+  - collection: cc_generations
+    field: id
+    type: integer
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_generations
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations
+    field: image
+    type: uuid
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: image
+      display_options: null
+      field: image
+      group: null
+      hidden: false
+      interface: file-image
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special:
+        - file
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: image
+      table: cc_generations
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_files
+      foreign_key_column: id
+  - collection: cc_generations
+    field: model
+    type: integer
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: related-values
+      display_options: null
+      field: model
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 9
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: model
+      table: cc_generations
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_models
+      foreign_key_column: id
+  - collection: cc_generations
+    field: name
+    type: string
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: raw
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: name
+      table: cc_generations
+      data_type: varchar
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations
+    field: production_end
+    type: date
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: datetime
+      display_options: null
+      field: production_end
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: production_end
+      table: cc_generations
+      data_type: date
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations
+    field: production_start
+    type: date
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: datetime
+      display_options: null
+      field: production_start
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: production_start
+      table: cc_generations
+      data_type: date
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations
+    field: sort
+    type: integer
+    meta:
+      collection: cc_generations
+      conditions: null
+      display: null
+      display_options: null
+      field: sort
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 10
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: sort
+      table: cc_generations
+      data_type: int
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations_cc_engines
+    field: cc_engines_id
+    type: integer
+    meta:
+      collection: cc_generations_cc_engines
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_engines_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_engines_id
+      table: cc_generations_cc_engines
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_engines
+      foreign_key_column: id
+  - collection: cc_generations_cc_engines
+    field: cc_generations_id
+    type: integer
+    meta:
+      collection: cc_generations_cc_engines
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_generations_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_generations_id
+      table: cc_generations_cc_engines
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+  - collection: cc_generations_cc_engines
+    field: id
+    type: integer
+    meta:
+      collection: cc_generations_cc_engines
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_generations_cc_engines
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations_cc_fuels
+    field: cc_fuels_id
+    type: integer
+    meta:
+      collection: cc_generations_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_fuels_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_fuels_id
+      table: cc_generations_cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_fuels
+      foreign_key_column: id
+  - collection: cc_generations_cc_fuels
+    field: cc_generations_id
+    type: integer
+    meta:
+      collection: cc_generations_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_generations_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_generations_id
+      table: cc_generations_cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+  - collection: cc_generations_cc_fuels
+    field: id
+    type: integer
+    meta:
+      collection: cc_generations_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_generations_cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_generations_cc_hull_types
+    field: cc_generations_id
+    type: integer
+    meta:
+      collection: cc_generations_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_generations_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_generations_id
+      table: cc_generations_cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+  - collection: cc_generations_cc_hull_types
+    field: cc_hull_types_id
+    type: integer
+    meta:
+      collection: cc_generations_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_hull_types_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_hull_types_id
+      table: cc_generations_cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_hull_types
+      foreign_key_column: id
+  - collection: cc_generations_cc_hull_types
+    field: id
+    type: integer
+    meta:
+      collection: cc_generations_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_generations_cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_hull_types
+    field: id
+    type: integer
+    meta:
+      collection: cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_hull_types
+    field: name
+    type: text
+    meta:
+      collection: cc_hull_types
+      conditions: null
+      display: raw
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: name
+      table: cc_hull_types
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models
+    field: brand
+    type: integer
+    meta:
+      collection: cc_models
+      conditions: null
+      display: related-values
+      display_options: null
+      field: brand
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: brand
+      table: cc_models
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_brands
+      foreign_key_column: id
+  - collection: cc_models
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_models
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 2
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_models
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models
+    field: generations
+    type: alias
+    meta:
+      collection: cc_models
+      field: generations
+      special:
+        - o2m
+      interface: list-o2m
+      options: null
+      display: null
+      display_options: null
+      readonly: false
+      hidden: false
+      sort: 5
+      width: full
+      translations: null
+      note: null
+      conditions: null
+      required: false
+      group: null
+      validation: null
+      validation_message: null
+  - collection: cc_models
+    field: id
+    type: integer
+    meta:
+      collection: cc_models
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_models
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models
+    field: name
+    type: text
+    meta:
+      collection: cc_models
+      conditions: null
+      display: raw
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: name
+      table: cc_models
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models_cc_fuels
+    field: cc_fuels_id
+    type: integer
+    meta:
+      collection: cc_models_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_fuels_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_fuels_id
+      table: cc_models_cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_fuels
+      foreign_key_column: id
+  - collection: cc_models_cc_fuels
+    field: cc_models_id
+    type: integer
+    meta:
+      collection: cc_models_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_models_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_models_id
+      table: cc_models_cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_models
+      foreign_key_column: id
+  - collection: cc_models_cc_fuels
+    field: id
+    type: integer
+    meta:
+      collection: cc_models_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_models_cc_fuels
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models_cc_fuels
+    field: order
+    type: integer
+    meta:
+      collection: cc_models_cc_fuels
+      conditions: null
+      display: null
+      display_options: null
+      field: order
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: order
+      table: cc_models_cc_fuels
+      data_type: int
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models_cc_hull_types
+    field: cc_hull_types_id
+    type: integer
+    meta:
+      collection: cc_models_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_hull_types_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_hull_types_id
+      table: cc_models_cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_hull_types
+      foreign_key_column: id
+  - collection: cc_models_cc_hull_types
+    field: cc_models_id
+    type: integer
+    meta:
+      collection: cc_models_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: cc_models_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: cc_models_id
+      table: cc_models_cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_models
+      foreign_key_column: id
+  - collection: cc_models_cc_hull_types
+    field: id
+    type: integer
+    meta:
+      collection: cc_models_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_models_cc_hull_types
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_models_cc_hull_types
+    field: order
+    type: integer
+    meta:
+      collection: cc_models_cc_hull_types
+      conditions: null
+      display: null
+      display_options: null
+      field: order
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: order
+      table: cc_models_cc_hull_types
+      data_type: int
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_password_resets
+    field: account
+    type: string
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: related-values
+      display_options: null
+      field: account
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 7
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: account
+      table: cc_password_resets
+      data_type: varchar
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_password_resets
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 2
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_password_resets
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_password_resets
+    field: expires
+    type: bigInteger
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: raw
+      display_options: null
+      field: expires
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: expires
+      table: cc_password_resets
+      data_type: bigint
+      default_value: null
+      max_length: null
+      numeric_precision: 19
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_password_resets
+    field: id
+    type: integer
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_password_resets
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_password_resets
+    field: resent
+    type: boolean
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: boolean
+      display_options: null
+      field: resent
+      group: null
+      hidden: false
+      interface: boolean
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: resent
+      table: cc_password_resets
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: 3
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_password_resets
+    field: reset_token
+    type: text
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: raw
+      display_options: null
+      field: reset_token
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: reset_token
+      table: cc_password_resets
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_password_resets
+    field: used
+    type: boolean
+    meta:
+      collection: cc_password_resets
+      conditions: null
+      display: boolean
+      display_options: null
+      field: used
+      group: null
+      hidden: false
+      interface: boolean
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: used
+      table: cc_password_resets
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: 3
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: abstract
+    type: text
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: raw
+      display_options: null
+      field: abstract
+      group: null
+      hidden: false
+      interface: input-multiline
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 9
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: abstract
+      table: cc_posts
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: author
+    type: string
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: related-values
+      display_options: null
+      field: author
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 12
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: author
+      table: cc_posts
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_posts
+    field: comments
+    type: alias
+    meta:
+      collection: cc_posts
+      field: comments
+      special:
+        - o2m
+      interface: list-o2m
+      options: null
+      display: null
+      display_options: null
+      readonly: false
+      hidden: false
+      sort: 13
+      width: full
+      translations: null
+      note: null
+      conditions: null
+      required: false
+      group: null
+      validation: null
+      validation_message: null
+  - collection: cc_posts
+    field: content
+    type: json
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: raw
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-code
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 10
+      special:
+        - cast-json
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: content
+      table: cc_posts
+      data_type: longtext
+      default_value: null
+      max_length: 4294967295
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 3
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_posts
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: date_updated
+    type: dateTime
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: datetime
+      display_options: null
+      field: date_updated
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_updated
+      table: cc_posts
+      data_type: datetime
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: id
+    type: integer
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_posts
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: model_engine
+    type: integer
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: related-values
+      display_options: null
+      field: model_engine
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 7
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: model_engine
+      table: cc_posts
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_engines
+      foreign_key_column: id
+  - collection: cc_posts
+    field: model_generation
+    type: integer
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: related-values
+      display_options: null
+      field: model_generation
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: model_generation
+      table: cc_posts
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+  - collection: cc_posts
+    field: model_hull_type
+    type: integer
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: related-values
+      display_options: null
+      field: model_hull_type
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 8
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: model_hull_type
+      table: cc_posts
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_hull_types
+      foreign_key_column: id
+  - collection: cc_posts
+    field: ratings
+    type: alias
+    meta:
+      collection: cc_posts
+      field: ratings
+      special:
+        - o2m
+      interface: list-o2m
+      options: null
+      display: related-values
+      display_options: null
+      readonly: false
+      hidden: false
+      sort: 11
+      width: full
+      translations: null
+      note: null
+      conditions: null
+      required: false
+      group: null
+      validation: null
+      validation_message: null
+  - collection: cc_posts
+    field: status
+    type: string
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: null
+      display_options: null
+      field: status
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: null
+      options:
+        choices:
+          - text: Opublikowany
+            value: published
+          - text: Szkic
+            value: draft
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: status
+      table: cc_posts
+      data_type: varchar
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts
+    field: title
+    type: text
+    meta:
+      collection: cc_posts
+      conditions: null
+      display: raw
+      display_options: null
+      field: title
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: title
+      table: cc_posts
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts_reports
+    field: account
+    type: string
+    meta:
+      collection: cc_posts_reports
+      conditions: null
+      display: related-values
+      display_options: null
+      field: account
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: account
+      table: cc_posts_reports
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_posts_reports
+    field: content
+    type: text
+    meta:
+      collection: cc_posts_reports
+      conditions: null
+      display: raw
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-multiline
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: content
+      table: cc_posts_reports
+      data_type: text
+      default_value: null
+      max_length: 65535
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts_reports
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_posts_reports
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_posts_reports
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts_reports
+    field: id
+    type: integer
+    meta:
+      collection: cc_posts_reports
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_posts_reports
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_posts_reports
+    field: post
+    type: integer
+    meta:
+      collection: cc_posts_reports
+      conditions: null
+      display: related-values
+      display_options: null
+      field: post
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: post
+      table: cc_posts_reports
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_posts
+      foreign_key_column: id
+  - collection: cc_ratings
+    field: account
+    type: string
+    meta:
+      collection: cc_ratings
+      conditions: null
+      display: related-values
+      display_options: null
+      field: account
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: account
+      table: cc_ratings
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_users
+      foreign_key_column: id
+  - collection: cc_ratings
+    field: date_created
+    type: timestamp
+    meta:
+      collection: cc_ratings
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: date_created
+      table: cc_ratings
+      data_type: timestamp
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_ratings
+    field: id
+    type: integer
+    meta:
+      collection: cc_ratings
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: cc_ratings
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_ratings
+    field: post
+    type: integer
+    meta:
+      collection: cc_ratings
+      conditions: null
+      display: raw
+      display_options: null
+      field: post
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 4
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: post
+      table: cc_ratings
+      data_type: int unsigned
+      default_value: null
+      max_length: null
+      numeric_precision: 10
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: cc_posts
+      foreign_key_column: id
+  - collection: cc_ratings
+    field: rating
+    type: boolean
+    meta:
+      collection: cc_ratings
+      conditions: null
+      display: boolean
+      display_options: null
+      field: rating
+      group: null
+      hidden: false
+      interface: boolean
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: rating
+      table: cc_ratings
+      data_type: boolean
+      default_value: null
+      max_length: null
+      numeric_precision: 3
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
   - collection: cc_sessions
     field: access_token
     type: text
@@ -105,7 +4330,7 @@ fields:
       options: null
       readonly: false
       required: false
-      sort: 6
+      sort: 7
       special:
         - m2o
       translations: null
@@ -115,7 +4340,7 @@ fields:
     schema:
       name: account
       table: cc_sessions
-      data_type: char
+      data_type: varchar
       default_value: null
       max_length: 36
       numeric_precision: null
@@ -245,6 +4470,44 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: cc_sessions
+    field: refresh_expiration
+    type: bigInteger
+    meta:
+      collection: cc_sessions
+      conditions: null
+      display: raw
+      display_options: null
+      field: refresh_expiration
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: refresh_expiration
+      table: cc_sessions
+      data_type: bigint
+      default_value: null
+      max_length: null
+      numeric_precision: 19
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cc_sessions
     field: refresh_token
     type: text
     meta:
@@ -298,7 +4561,7 @@ fields:
       options: null
       readonly: false
       required: false
-      sort: null
+      sort: 8
       special:
         - cast-boolean
       translations: null
@@ -322,6 +4585,45 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: cc_users
+    field: avatar
+    type: uuid
+    meta:
+      collection: cc_users
+      conditions: null
+      display: image
+      display_options: null
+      field: avatar
+      group: null
+      hidden: false
+      interface: file-image
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 5
+      special:
+        - file
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: avatar
+      table: cc_users
+      data_type: char
+      default_value: null
+      max_length: 36
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_files
+      foreign_key_column: id
+  - collection: cc_users
     field: date_created
     type: timestamp
     meta:
@@ -338,7 +4640,7 @@ fields:
       options: null
       readonly: true
       required: false
-      sort: null
+      sort: 2
       special:
         - date-created
       translations: null
@@ -379,7 +4681,7 @@ fields:
         placeholder: E-mail
       readonly: false
       required: false
-      sort: null
+      sort: 3
       special: null
       translations: null
       validation: null
@@ -417,7 +4719,7 @@ fields:
       options: null
       readonly: true
       required: false
-      sort: null
+      sort: 1
       special:
         - uuid
       translations: null
@@ -456,7 +4758,7 @@ fields:
       options: null
       readonly: false
       required: false
-      sort: null
+      sort: 7
       special: null
       translations: null
       validation: null
@@ -496,7 +4798,7 @@ fields:
         placeholder: Nazwa
       readonly: false
       required: false
-      sort: null
+      sort: 4
       special: null
       translations: null
       validation: null
@@ -528,7 +4830,7 @@ fields:
       display_options: null
       field: password
       group: null
-      hidden: false
+      hidden: true
       interface: input
       note: null
       options:
@@ -536,7 +4838,7 @@ fields:
         placeholder: Hasło
       readonly: false
       required: false
-      sort: null
+      sort: 6
       special: null
       translations: null
       validation: null
@@ -558,87 +4860,700 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: directus_translations
-    field: id
-    type: string
-    meta: null
-    schema:
-      name: id
-      table: directus_translations
-      data_type: char
-      default_value: null
-      max_length: 36
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: false
-      is_unique: false
-      is_primary_key: true
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: directus_translations
-    field: key
-    type: string
-    meta: null
-    schema:
-      name: key
-      table: directus_translations
-      data_type: varchar
-      default_value: null
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: false
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: directus_translations
-    field: language
-    type: string
-    meta: null
-    schema:
-      name: language
-      table: directus_translations
-      data_type: varchar
-      default_value: null
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: false
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: directus_translations
-    field: value
-    type: text
-    meta: null
-    schema:
-      name: value
-      table: directus_translations
-      data_type: text
-      default_value: null
-      max_length: 65535
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: false
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
 relations:
+  - collection: cc_activations
+    field: account
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_activations
+      many_field: account
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_activations
+      column: account
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_activations_account_foreign
+      on_update: RESTRICT
+      on_delete: CASCADE
+  - collection: cc_brands
+    field: logo
+    related_collection: directus_files
+    meta:
+      junction_field: null
+      many_collection: cc_brands
+      many_field: logo
+      one_allowed_collections: null
+      one_collection: directus_files
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_brands
+      column: logo
+      foreign_key_table: directus_files
+      foreign_key_column: id
+      constraint_name: cc_brands_logo_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_comments
+    field: author
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_comments
+      many_field: author
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_comments
+      column: author
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_comments_author_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_comments
+    field: parent
+    related_collection: cc_comments
+    meta:
+      junction_field: null
+      many_collection: cc_comments
+      many_field: parent
+      one_allowed_collections: null
+      one_collection: cc_comments
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_comments
+      column: parent
+      foreign_key_table: cc_comments
+      foreign_key_column: id
+      constraint_name: cc_comments_parent_foreign
+      on_update: RESTRICT
+      on_delete: NO ACTION
+  - collection: cc_comments
+    field: post
+    related_collection: cc_posts
+    meta:
+      junction_field: null
+      many_collection: cc_comments
+      many_field: post
+      one_allowed_collections: null
+      one_collection: cc_posts
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: comments
+      sort_field: null
+    schema:
+      table: cc_comments
+      column: post
+      foreign_key_table: cc_posts
+      foreign_key_column: id
+      constraint_name: cc_comments_post_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_comments_ratings
+    field: account
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_comments_ratings
+      many_field: account
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_comments_ratings
+      column: account
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_comments_ratings_account_foreign
+      on_update: RESTRICT
+      on_delete: CASCADE
+  - collection: cc_comments_ratings
+    field: comment
+    related_collection: cc_comments
+    meta:
+      junction_field: null
+      many_collection: cc_comments_ratings
+      many_field: comment
+      one_allowed_collections: null
+      one_collection: cc_comments
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: ratings
+      sort_field: null
+    schema:
+      table: cc_comments_ratings
+      column: comment
+      foreign_key_table: cc_comments
+      foreign_key_column: id
+      constraint_name: cc_comments_ratings_comment_foreign
+      on_update: RESTRICT
+      on_delete: CASCADE
+  - collection: cc_comments_reports
+    field: account
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_comments_reports
+      many_field: account
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_comments_reports
+      column: account
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_comments_reports_account_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_comments_reports
+    field: comment
+    related_collection: cc_comments
+    meta:
+      junction_field: null
+      many_collection: cc_comments_reports
+      many_field: comment
+      one_allowed_collections: null
+      one_collection: cc_comments
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_comments_reports
+      column: comment
+      foreign_key_table: cc_comments
+      foreign_key_column: id
+      constraint_name: cc_comments_reports_comment_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_engines
+    field: fuel
+    related_collection: cc_fuels
+    meta:
+      junction_field: null
+      many_collection: cc_engines
+      many_field: fuel
+      one_allowed_collections: null
+      one_collection: cc_fuels
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_engines
+      column: fuel
+      foreign_key_table: cc_fuels
+      foreign_key_column: id
+      constraint_name: cc_engines_fuel_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_engines
+    field: generation
+    related_collection: cc_generations
+    meta:
+      junction_field: null
+      many_collection: cc_engines
+      many_field: generation
+      one_allowed_collections: null
+      one_collection: cc_generations
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_engines
+      column: generation
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+      constraint_name: cc_engines_generation_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations
+    field: image
+    related_collection: directus_files
+    meta:
+      junction_field: null
+      many_collection: cc_generations
+      many_field: image
+      one_allowed_collections: null
+      one_collection: directus_files
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_generations
+      column: image
+      foreign_key_table: directus_files
+      foreign_key_column: id
+      constraint_name: cc_generations_image_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations
+    field: model
+    related_collection: cc_models
+    meta:
+      junction_field: null
+      many_collection: cc_generations
+      many_field: model
+      one_allowed_collections: null
+      one_collection: cc_models
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: generations
+      sort_field: sort
+    schema:
+      table: cc_generations
+      column: model
+      foreign_key_table: cc_models
+      foreign_key_column: id
+      constraint_name: cc_generations_model_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations_cc_engines
+    field: cc_engines_id
+    related_collection: cc_engines
+    meta:
+      junction_field: cc_generations_id
+      many_collection: cc_generations_cc_engines
+      many_field: cc_engines_id
+      one_allowed_collections: null
+      one_collection: cc_engines
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_generations_cc_engines
+      column: cc_engines_id
+      foreign_key_table: cc_engines
+      foreign_key_column: id
+      constraint_name: cc_generations_cc_engines_cc_engines_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations_cc_engines
+    field: cc_generations_id
+    related_collection: cc_generations
+    meta:
+      junction_field: cc_engines_id
+      many_collection: cc_generations_cc_engines
+      many_field: cc_generations_id
+      one_allowed_collections: null
+      one_collection: cc_generations
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: engines
+      sort_field: null
+    schema:
+      table: cc_generations_cc_engines
+      column: cc_generations_id
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+      constraint_name: cc_generations_cc_engines_cc_generations_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations_cc_fuels
+    field: cc_fuels_id
+    related_collection: cc_fuels
+    meta:
+      junction_field: cc_generations_id
+      many_collection: cc_generations_cc_fuels
+      many_field: cc_fuels_id
+      one_allowed_collections: null
+      one_collection: cc_fuels
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_generations_cc_fuels
+      column: cc_fuels_id
+      foreign_key_table: cc_fuels
+      foreign_key_column: id
+      constraint_name: cc_generations_cc_fuels_cc_fuels_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations_cc_fuels
+    field: cc_generations_id
+    related_collection: cc_generations
+    meta:
+      junction_field: cc_fuels_id
+      many_collection: cc_generations_cc_fuels
+      many_field: cc_generations_id
+      one_allowed_collections: null
+      one_collection: cc_generations
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_generations_cc_fuels
+      column: cc_generations_id
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+      constraint_name: cc_generations_cc_fuels_cc_generations_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations_cc_hull_types
+    field: cc_generations_id
+    related_collection: cc_generations
+    meta:
+      junction_field: cc_hull_types_id
+      many_collection: cc_generations_cc_hull_types
+      many_field: cc_generations_id
+      one_allowed_collections: null
+      one_collection: cc_generations
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: hull_types
+      sort_field: null
+    schema:
+      table: cc_generations_cc_hull_types
+      column: cc_generations_id
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+      constraint_name: cc_generations_cc_hull_types_cc_generations_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_generations_cc_hull_types
+    field: cc_hull_types_id
+    related_collection: cc_hull_types
+    meta:
+      junction_field: cc_generations_id
+      many_collection: cc_generations_cc_hull_types
+      many_field: cc_hull_types_id
+      one_allowed_collections: null
+      one_collection: cc_hull_types
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_generations_cc_hull_types
+      column: cc_hull_types_id
+      foreign_key_table: cc_hull_types
+      foreign_key_column: id
+      constraint_name: cc_generations_cc_hull_types_cc_hull_types_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_models
+    field: brand
+    related_collection: cc_brands
+    meta:
+      junction_field: null
+      many_collection: cc_models
+      many_field: brand
+      one_allowed_collections: null
+      one_collection: cc_brands
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_models
+      column: brand
+      foreign_key_table: cc_brands
+      foreign_key_column: id
+      constraint_name: cc_models_brand_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_models_cc_fuels
+    field: cc_fuels_id
+    related_collection: cc_fuels
+    meta:
+      junction_field: cc_models_id
+      many_collection: cc_models_cc_fuels
+      many_field: cc_fuels_id
+      one_allowed_collections: null
+      one_collection: cc_fuels
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_models_cc_fuels
+      column: cc_fuels_id
+      foreign_key_table: cc_fuels
+      foreign_key_column: id
+      constraint_name: cc_models_cc_fuels_cc_fuels_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_models_cc_fuels
+    field: cc_models_id
+    related_collection: cc_models
+    meta:
+      junction_field: cc_fuels_id
+      many_collection: cc_models_cc_fuels
+      many_field: cc_models_id
+      one_allowed_collections: null
+      one_collection: cc_models
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: order
+    schema:
+      table: cc_models_cc_fuels
+      column: cc_models_id
+      foreign_key_table: cc_models
+      foreign_key_column: id
+      constraint_name: cc_models_cc_fuels_cc_models_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_models_cc_hull_types
+    field: cc_hull_types_id
+    related_collection: cc_hull_types
+    meta:
+      junction_field: cc_models_id
+      many_collection: cc_models_cc_hull_types
+      many_field: cc_hull_types_id
+      one_allowed_collections: null
+      one_collection: cc_hull_types
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_models_cc_hull_types
+      column: cc_hull_types_id
+      foreign_key_table: cc_hull_types
+      foreign_key_column: id
+      constraint_name: cc_models_cc_hull_types_cc_hull_types_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_models_cc_hull_types
+    field: cc_models_id
+    related_collection: cc_models
+    meta:
+      junction_field: cc_hull_types_id
+      many_collection: cc_models_cc_hull_types
+      many_field: cc_models_id
+      one_allowed_collections: null
+      one_collection: cc_models
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: order
+    schema:
+      table: cc_models_cc_hull_types
+      column: cc_models_id
+      foreign_key_table: cc_models
+      foreign_key_column: id
+      constraint_name: cc_models_cc_hull_types_cc_models_id_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_password_resets
+    field: account
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_password_resets
+      many_field: account
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_password_resets
+      column: account
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_password_resets_account_foreign
+      on_update: RESTRICT
+      on_delete: CASCADE
+  - collection: cc_posts
+    field: author
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_posts
+      many_field: author
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_posts
+      column: author
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_posts_author_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_posts
+    field: model_engine
+    related_collection: cc_engines
+    meta:
+      junction_field: null
+      many_collection: cc_posts
+      many_field: model_engine
+      one_allowed_collections: null
+      one_collection: cc_engines
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_posts
+      column: model_engine
+      foreign_key_table: cc_engines
+      foreign_key_column: id
+      constraint_name: cc_posts_model_engine_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_posts
+    field: model_generation
+    related_collection: cc_generations
+    meta:
+      junction_field: null
+      many_collection: cc_posts
+      many_field: model_generation
+      one_allowed_collections: null
+      one_collection: cc_generations
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_posts
+      column: model_generation
+      foreign_key_table: cc_generations
+      foreign_key_column: id
+      constraint_name: cc_posts_model_generation_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_posts
+    field: model_hull_type
+    related_collection: cc_hull_types
+    meta:
+      junction_field: null
+      many_collection: cc_posts
+      many_field: model_hull_type
+      one_allowed_collections: null
+      one_collection: cc_hull_types
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_posts
+      column: model_hull_type
+      foreign_key_table: cc_hull_types
+      foreign_key_column: id
+      constraint_name: cc_posts_model_hull_type_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_posts_reports
+    field: account
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_posts_reports
+      many_field: account
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_posts_reports
+      column: account
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_posts_reports_account_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_posts_reports
+    field: post
+    related_collection: cc_posts
+    meta:
+      junction_field: null
+      many_collection: cc_posts_reports
+      many_field: post
+      one_allowed_collections: null
+      one_collection: cc_posts
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_posts_reports
+      column: post
+      foreign_key_table: cc_posts
+      foreign_key_column: id
+      constraint_name: cc_posts_reports_post_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
+  - collection: cc_ratings
+    field: account
+    related_collection: cc_users
+    meta:
+      junction_field: null
+      many_collection: cc_ratings
+      many_field: account
+      one_allowed_collections: null
+      one_collection: cc_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_ratings
+      column: account
+      foreign_key_table: cc_users
+      foreign_key_column: id
+      constraint_name: cc_ratings_account_foreign
+      on_update: RESTRICT
+      on_delete: CASCADE
+  - collection: cc_ratings
+    field: post
+    related_collection: cc_posts
+    meta:
+      junction_field: null
+      many_collection: cc_ratings
+      many_field: post
+      one_allowed_collections: null
+      one_collection: cc_posts
+      one_collection_field: null
+      one_deselect_action: delete
+      one_field: ratings
+      sort_field: null
+    schema:
+      table: cc_ratings
+      column: post
+      foreign_key_table: cc_posts
+      foreign_key_column: id
+      constraint_name: cc_ratings_post_foreign
+      on_update: RESTRICT
+      on_delete: CASCADE
   - collection: cc_sessions
     field: account
     related_collection: cc_users
@@ -660,3 +5575,24 @@ relations:
       constraint_name: cc_sessions_account_foreign
       on_update: RESTRICT
       on_delete: CASCADE
+  - collection: cc_users
+    field: avatar
+    related_collection: directus_files
+    meta:
+      junction_field: null
+      many_collection: cc_users
+      many_field: avatar
+      one_allowed_collections: null
+      one_collection: directus_files
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: cc_users
+      column: avatar
+      foreign_key_table: directus_files
+      foreign_key_column: id
+      constraint_name: cc_users_avatar_foreign
+      on_update: RESTRICT
+      on_delete: SET NULL
